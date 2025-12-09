@@ -11,7 +11,7 @@ int main() {
     
     printf("You entered\n");
     for (int i = 0; i < 3; i++) {
-        printf("%d %d %d\n", matrix[i][0], matrix[i][1], matrix[i][2]);
+        printf("%d %d %d \n", matrix[i][0], matrix[i][1], matrix[i][2]);
     }
     
     // Print the flipped matrix
@@ -22,5 +22,6 @@ int main() {
     
     return 0;
 }
+
 
 
